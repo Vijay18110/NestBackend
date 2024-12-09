@@ -1,0 +1,17 @@
+{
+  "name": "nestbackend",
+  "version": "1.0.0",
+  "description": "ecommerce nest backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "vijay raj",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
+  }
+}
