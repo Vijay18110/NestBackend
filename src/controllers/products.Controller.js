@@ -4,6 +4,7 @@ exports.getProducts = (req, res) => {
     status: true,
     msg: "all products get successfylly",
     statuCode: "200",
+
     data: pProducts,
   });
   console.log("all products router connected");
